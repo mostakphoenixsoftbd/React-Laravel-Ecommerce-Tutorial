@@ -1,0 +1,60 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap");
+@import "variables.css";
+@import "bigSlider.css";
+@import "button.css";
+@import "common.css";
+@import "card.css";
+@import "footer.css";
+
+/*@import "---megaMenu.css";*/
+@import "megaMenuMobile.css";
+
+@import "navMenuDesktop.css";
+@import "navMenuMobile.css";
+
+@import "typo.css";
+@import "form.css";
+@import "onboard.css";
+@import "map.css";
+
+@import "notification.css";
+@import "ProductDetails.css";
+@import "cart.css";
+
+@import "breadcrumb.css";
+@import "responsive.css";
+@import "toast.css";
+@import "search.css";
+
+/* Custom Styles */
+.slider-container {
+    width: 100%;  /* Make sure the slider takes full width of the container */
+    margin: 0 auto;
+    margin-right: 0!important;/* Center the slider horizontally */
+    padding-top: 50px;
+    padding-right: 0!important;
+    padding-left: 0;/* Remove any padding */
+    overflow: hidden;  /* Prevent overflow and ensure images fit inside the container */
+}
+
+/* Set the height of images to 400px, and width to 100% */
+.slider-image {
+    width: 100%;  /* Ensure image takes full width (fluid) */
+    height: 400px;  /* Fixed height */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+    margin: 0 auto; /* Center the image */
+}
+
+/* Adjust dots size and active color */
+.slick-dots li button:before {
+    font-size: 12px;  /* Adjust dot size */
+    color: black;  /* Dot color */
+}
+
+.slick-dots li.slick-active button:before {
+    color: #007bff;  /* Active dot color */
+}
+
+
+
